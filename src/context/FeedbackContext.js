@@ -23,7 +23,7 @@ export const FeedbackProvider = ({ children }) => {
     const data = await response.json();
 
     setFeedback(data);
-    isLoading(false);
+    setIsLoading(false);
   };
 
   // Add feedback
@@ -59,7 +59,7 @@ export const FeedbackProvider = ({ children }) => {
       value={{
         feedback,
         feedbackEdit,
-        isLoading, 
+        isLoading,
         deleteFeedback,
         addFeedback,
         editFeedback,
