@@ -13,3 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Runs the mock backend which spits out json data.\
 Use http client to test GET, POST, DELETE requests on [http://localhost:5000/feedback](http://locahost:5000/feedback).
+
+### Run Dev environment `npm run dev`
+
+Runs the app in the development mode.\
+Uses concurrently to run the frontend and backend.\
